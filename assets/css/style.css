@@ -330,7 +330,7 @@ nav {
 	margin-bottom: 3%;
 }
 
-/* Landscape phones and down */
+/*Mobile Phone*/
 @media (min-width: 300px) {
 	nav {
 		width: 90%;
@@ -418,7 +418,7 @@ nav {
 		margin-right: 4%;
 	}
 
-	/* You might do landscape phones here if your content seems to need it */
+	/* Landscape Mobile */
 	@media (min-width: 450px) {
 		#navbar #nav {
 			height: 150%;
@@ -512,11 +512,58 @@ nav {
 		}
 		.container {
 			padding-top: 20%;
+
 		}
 
-	/* Desktop screen or landscape tablet */
-	@media (min-width: 900px) {
+	/*Ipad Pro*/
+	@media (min-width: 1024px) {
+		nav {
+			width: 80%;
 		}
+		#navbar {
+			width: 100%;
+			height: 8%;
+			text-align: center;
+			z-index: 5;
+		}
+		#navbar #nav {
+			height: 60%;
+		}
+		.container {
+			width: 80%;
+			padding-top: 10%;
+		}
+
+	/*Ipad Pro*/
+	@media (min-width: 1024px) {
+		#navbar {
+			width: 100%;
+			height: 8%;
+			text-align: center;
+			z-index: 5;
+		}
+		#navbar #nav {
+			height: 70%;
+		}
+		.container {
+			padding-top: 10%;
+		}
+	@media (min-width: 1200px) {
+		#navbar {
+			width: 100%;
+			height: 15%;
+			text-align: center;
+			z-index: 5;
+		}
+		#navbar #nav {
+			height: 70%;
+		}
+		.container {
+			padding-top:
+		}
+
+	/*Larger Desktop*/
+	@media (min-width: 1400px) {
 
 		body {
 			margin: 0;
@@ -528,13 +575,13 @@ nav {
 		#navbar {
 			position: fixed;
 			width: 100%;
-			height: 10%;
+			height: 12%;
 			text-align: center;
 			z-index: 5;
 		}
 
 		#navbar #nav {
-			height: 80%;
+			height: 90%;
 			margin-bottom: 1%;
 			background-color: rgba(255, 255, 255, 1);
 		}
@@ -588,7 +635,7 @@ nav {
 		}
 
 		.container {
-			padding-top: 12%;
+			padding-top: 10%;
 			width: 60%;
 			margin: 0 auto;	
 		}
@@ -806,25 +853,6 @@ nav {
 			font-size: 25px;
 			color: #85ceba;
 			margin-bottom: 3%;
-		}
-
-	/*Ipad Pro*/
-	@media (min-width: 1024px) {
-		#navbar #nav {
-			height: 60%;
-		}
-		.container {
-			padding-top: 10%;
-		}
-
-	/*Larger Desktop*/
-	@media (min-width: 1024px) {
-		#navbar #nav {
-			height: 90%;
-		}
-		.container {
-			padding-top: 10%;
-		}
 
 
 	
