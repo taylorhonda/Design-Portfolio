@@ -97,14 +97,6 @@ nav {
 	color: #F08080;
 
 }
-.back-to-all {
-	text-decoration: none;
-	color: #F08080;
-	padding-bottom: 50px;
-	font-size: 20px;
-
-}
-
 
 #work {
 	margin: 0 auto;
@@ -120,6 +112,24 @@ nav {
 	width: 100%;
 	margin-bottom: 2%;
 	position: relative;
+
+
+}
+.example {
+    width: 100%;
+	margin-bottom: 2%;
+	position: relative;
+}
+
+.example img.ux {
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.example img.ux:hover {
+    opacity: 0.4;
 }
 
 .overlay {
@@ -332,6 +342,13 @@ nav {
 	font-size: 25px;
 	color: #85ceba;
 	margin-bottom: 3%;
+}
+
+.back-to-all {
+	font-size: 25px;
+	color: #F08080;
+	text-decoration: none;
+	padding-bottom: 5%;
 }
 
 
