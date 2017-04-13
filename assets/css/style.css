@@ -54,7 +54,7 @@ nav {
 
 }
 
-.pages #uiux, #graphicdesign, #photos, #about {
+.pages #work, #about {
 	margin-left: 4%;
 	text-decoration: none;
 	color: #5D6D7E;
@@ -65,7 +65,20 @@ nav {
 
 }
 
-#uiux:hover, #graphicdesign:hover, #photos:hover, #about:hover {
+#resume {
+	text-decoration: none;
+	color: #F08080;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition: 0.4s;
+	transition: 0.4s;
+}
+
+#resume:hover {
+	opacity: 0.4;
+}
+
+#work:hover, #about:hover {
 	opacity: 0.4;
 }
 
@@ -110,18 +123,16 @@ nav {
 
 .ux {
 	width: 100%;
+	max-height: none;
 	margin-bottom: 2%;
 	position: relative;
 
-
-}
-.example {
-    width: 100%;
-	margin-bottom: 2%;
-	position: relative;
 }
 
 .example img.ux {
+	width: 100%;
+	margin-bottom: 2%;
+	position: relative;
     -webkit-transition: opacity 0.4s ease-in-out;
     -moz-transition: opacity 0.4s ease-in-out;
     -ms-transition: opacity 0.4s ease-in-out;
@@ -315,6 +326,10 @@ nav {
 	color: #85ceba;
 }
 
+.product#share {
+	color: #f68b63;
+}
+
 .tools {
 	font-size: 16px;
 	text-align: left;
@@ -338,9 +353,15 @@ nav {
 }
 
 
-.heading {
+.heading-subbook {
 	font-size: 25px;
 	color: #85ceba;
+	margin-bottom: 3%;
+}
+
+.heading-share {
+	font-size: 25px;
+	color: #f68b63;
 	margin-bottom: 3%;
 }
 
@@ -411,6 +432,11 @@ nav {
 		width: 5%;
 		margin-right: 4%;
 		}
+	.description {
+		font-size: 40px;
+		bottom: 0;
+		height: 15%;
+		top: 42%;
 }
 
 /* Large Tablet */
@@ -578,6 +604,13 @@ nav {
 		width: 5%;
 		margin-right: 4%;
 		}
+
+	.description {
+		font-size: 30px;
+		bottom: 0;
+		height: 15%;
+		top: 42%;
+	}
 }
 
 /* Landscape phones and down */
@@ -630,6 +663,14 @@ nav {
 		width: 6%;
 		margin-right: 4%;
 		}
+
+
+	.description {
+		font-size: 20px;
+		bottom: 0;
+		height: 15%;
+		top: 40%;
+	}
 }
 
 
