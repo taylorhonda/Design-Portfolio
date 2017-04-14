@@ -54,7 +54,7 @@ nav {
 
 }
 
-.pages #work, #about {
+.pages #design, #about {
 	margin-left: 4%;
 	text-decoration: none;
 	color: #5D6D7E;
@@ -78,7 +78,7 @@ nav {
 	opacity: 0.4;
 }
 
-#work:hover, #about:hover {
+#design:hover, #about:hover {
 	opacity: 0.4;
 }
 
@@ -129,7 +129,15 @@ nav {
 
 }
 
-.example img.ux {
+.ux-2 {
+	width: 100%;
+	max-height: none;
+	margin-bottom: 2%;
+	position: relative;
+
+}
+
+.example img.ux-2 {
 	width: 100%;
 	margin-bottom: 2%;
 	position: relative;
@@ -139,7 +147,7 @@ nav {
     transition: opacity 0.4s ease-in-out;
 }
 
-.example img.ux:hover {
+.example img.ux-2:hover {
     opacity: 0.4;
 }
 
@@ -152,38 +160,16 @@ nav {
 	height: 100%;
 	width: 100%;
 	opacity: 0;
-	-webkit-transition: 0.4s;
-	-moz-transition: 0.4s;
-	-ms-transition: 0.4s;
-	transition: 0.4s;
+	-webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
 	background-color: white;
 	cursor: pointer
 }
 
 .box:hover .overlay {
 	opacity: 0.75;
-}
-
-.overlay-two {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	-webkit-transition: 0.4s;
-	-moz-transition: 0.4s;
-	-ms-transition: 0.4s;
-	transition: 0.4s;
-	background-color: white;
-	cursor: pointer;
-}
-
-.box:hover .overlay-two {
-	opacity: 0.4;
-
 }
 
 .description {
@@ -198,15 +184,16 @@ nav {
 	top: 44%;
 	text-decoration: none;
 	visibility: hidden;
+	-webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
 
 }
 
 .box:hover .description {
 	visibility: visible;
-	-webkit-transition: 0.4s;
-	-moz-transition: 0.4s;
-	-ms-transition: 0.4s;
-	transition: 0.4s;
+	
 
 }
 
@@ -253,13 +240,6 @@ nav {
 }
 
 */
-
-.box:hover .overlay2 {
-	opacity: 0.75;
-
-}
-
-
 
 #block {
 	width: 30%;
